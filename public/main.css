@@ -6,7 +6,6 @@
 body {
   padding: 0;
   margin: 0;
-  margin-top: 150px;
   background: #eee;
 }
 #app {
@@ -35,16 +34,12 @@ a:visited {
 
 /* Navigation */
 #nav {
-  position: fixed;
-  top: 0;
-  left: 0;
-  right: 0;
-  margin-top: 0;
-  padding: 30px;
+  padding: 20px;
   background: #2c3e50;
   color: white;
   display: flex;
   align-items: center;
+  justify-content: space-between;
   border-bottom: 5px solid #4e6c71;
   z-index: 2;
 }
@@ -160,24 +155,24 @@ a {
   margin-bottom: 15px;
 }
 /* Form */
-.form{
-  display:flex;
+.form {
+  display: flex;
   flex-direction: column;
-  max-width:400px;
+  max-width: 400px;
   margin: 0 auto;
 }
 
-.input{
+.input {
   border: 1px solid gray;
   padding: 10px;
-  margin-bottom:20px;
-  border-radius:5px;
+  margin-bottom: 20px;
+  border-radius: 5px;
 }
 
-.btn{
-  background-color:#2c3e50;
+.btn {
+  background-color: #2c3e50;
   color: white;
   padding: 10px;
   border-radius: 5px;
-  border:none;
+  border: none;
 }
